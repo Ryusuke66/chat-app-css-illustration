@@ -237,9 +237,9 @@ p {
 @media (max-width: 768px) {
 
     .background {
-        height: 80%;
+        height: 50em;
         top: -20%;
-        left: -500px;
+        left: -450px;
     }
 
     .container {
