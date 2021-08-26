@@ -250,6 +250,7 @@ p {
 
     .phone {
         justify-self: center;
+        transform: scale(0.9);
     }
 
     .info {
