@@ -250,7 +250,7 @@ p {
 
     .phone {
         justify-self: center;
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
 
     .info {
@@ -259,5 +259,11 @@ p {
 
     p {
         margin: 20px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .phone {
+        transform: scale(0.6);
     }
 }
