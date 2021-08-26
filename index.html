@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <div class="phone">
+      <div class="header">
+        <div class="notch"></div>
+        <div class="content">
+          <div class="back">&#8249;</div>
+          <div class="receiver">
+            <img src="images/avatar.jpg" alt="a guy wearing glasses, face close-up.">
+            <h2>Samuel Green</h2>
+            <div>Available to Walk</div>
+          </div>
+          <div class="three-dots"></div>
+        </div>
+      </div>
+      <div class="convo">
+        <div class="received message">
+          That sounds great.
+          I’d be happy with that.</div>
+        <div class="received message">Could you send over some pictures of your dog, please?</div>
+        <div class="pics">
+          <img src="images/dog-image-1.jpg" alt="Dog, face close-up, dog focused.">
+          <img src="images/dog-image-2.jpg" alt="Dog, close-up, dog focused.">
+          <img src="images/dog-image-3.jpg" alt="Dog holding a branch, close-up, dog focused.">
+        </div>
+        <div class="sent message">Here are a few pictures. She’s a happy girl!</div>
+
+        <div class="sent message">Can you make it?</div>
+
+        <div class="received message">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+        <div class="offer message">
+          <label class="choose" for="halfHour">30 minute walk
+            <input type="radio" name="offer-chosen" id="halfHour">
+            <span class="check"></span>
+          </label>
+          <h2>$29</h2>
+        </div>
+        <div class="offer message">
+          <label class="choose" for="oneHour">1 hour walk
+            <input type="radio" name="offer-chosen" id="oneHour">
+            <span class="check"></span>
+          </label>
+          <h2>$49</h2>
+        </div>
+        <label for="message" class="msg">
+          <input type="text" name="send message" id="message" placeholder="Type a message...">
+          <span class="send">&#8250;</span>
+        </label>
+      </div>
+    </div>
+    <div class="info">
+      <h1>Simple booking</h1>
+
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+      discuss arrangements and make bookings. Once the walk has been completed you can rate 
+      your walker and book again all through the chat.</p>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by&nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by&nbsp;<a href="https://www.frontendmentor.io/profile/Ryusuke66" target="_blank">Yassine Ghezal</a>.
+  </div>
+</body>
+</html>
