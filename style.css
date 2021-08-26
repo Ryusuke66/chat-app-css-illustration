@@ -23,6 +23,7 @@ body {
 .container {
     display: grid;
     align-items: center;
+    height: 100vh;
     justify-content: center;
     grid-template-columns: repeat(2, 50%);
 }
@@ -244,6 +245,7 @@ p {
     .container {
         grid-template-columns: none;
         padding: 10px;
+        height: auto;
     }
 
     .phone {
